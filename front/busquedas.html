@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resultado de Busqueda</title>
+    <link rel="stylesheet" href="./css/busque.css">
+    <link rel="shortcut icon" href="./imagenes/LogoCeleste.JPG" />
+  </head>
+  <body>
+    <header>
+      <a href="./index.html"
+        ><img class="imagen-logo" src="./imagenes/LogoCeleste.JPG" alt="Logo"
+      /></a>
+
+      <br>
+    </header>
+    <section>
+      <a class="boton-de-regresar" href="./index.html">Regresar</a>
+
+      <!-- 
+        ESTE INPUT CONTIENE EL VALUE DE LA BUSQUEDA, LA PALABRA CLAVE
+        id -> palabra-busqueda
+       -->
+      <input class="barra-de-busqueda" type="search" id="palabra-busqueda" placeholder=" ¿Qué buscas?">
+      <!-- 
+        CUANDO SE DE CLICK EN ESTE BOTON SE DEBE REALIZAR LA BÚSQUEDA
+        id -> boton-enviar
+       -->
+      <button class="boton-de-busqueda" id="boton-enviar">Buscar...</button> 
+    </section>
+
+    <section>
+      <h1 class="titulo-resultado-de-busqueda">Resultados de Búsqueda</h1>
+    </section>
+
+    <!-- 
+      DENTRO DE ESTA ETIQUETA SE DEBEN INSERTAR LOS RESULTADO AL DAR CLICK EN EL BOTON
+      id -> resultados
+     -->
+    <section class="contenedor-resultados" id="resultados">
+
+
+      
+
+    </section>
+
+  <footer>
+    <div class="grid2">
+      <div>
+        <h5>NOSOTROS</h5>
+        <ul>
+          <li>
+            <h6><a href="">Nosotros</a></h6>
+          </li>
+          <li>
+            <li><h6><a href="./Reportes.html">Reportes</a></h6></li>
+          </li>
+        </ul>
+      </div>
+      <div>
+      </div>
+      <div>
+        <h5>ENLACES ÚTILES</h5>
+        <ul>
+          <li>
+            <h6><a href="">Terminos y Condiciones</a></h6>
+          </li>
+          <li>
+            <h6><a href="">Politicas y Privacidad</a></h6>
+          </li>
+          <li>
+            <h6><a href="">Politicas de Servicio</a></h6>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h5>CONTACTENOS</h5>
+        <ul>
+          <li>
+            <h6><a href="">Contactenos</a></h6>
+          </li>
+          <li><h6>Whatsapp (+507) 6466-6026</h6></li>
+          <li><h6>Correo: OikiakosPanama@hotmail.com</h6></li>
+        </ul>
+      </div>
+      <div>
+        <a href=""></a>
+      </div>
+      <div>
+        <a href="./index.html"
+          ><img src="./imagenes/LogoCeleste.JPG" alt="" class="imgfooter"
+        /></a>
+      </div>
+    </div>
+  </footer> 
+ 
+  <script src="./scripts/validarsesion.js"></script>
+  <script src="./scripts/busqueda.js"></script>
+</body>
+</html>

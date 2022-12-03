@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oikiakos/Reportes</title>
+    <link rel="stylesheet" href="./css/header_footer.css">
+    <link rel="stylesheet" href="./css/reportes.css">
+    <link rel="shortcut icon" href="./imagenes/LogoCeleste.JPG" />
+</head>
+<body>
+    <header>
+      <div class="contenedor-barra-superior">
+        <div id="botones-login">
+          <a href="registro.html">
+            <img src="./imagenes/Icono_registrarse.png" alt="register">
+            <h5>Registrarse</h5>
+          </a>
+          <a href="Login.html">
+            <img src="./imagenes/Icono_iniciar_sesion.png" alt="login">
+            <h5>Iniciar Sesión</h5>
+          </a>
+        </div>
+      </div>
+        <div>
+          <a href="./index.html"><img class="img-logo" src="./imagenes/mypets.png" alt="" /></a>
+  
+          <div class="contenedor-buscador">
+            <input
+              class="buscador"
+              type="search"
+              id="query"
+              name="q"
+              placeholder="¿Qué estás buscando?"
+              onclick="window.location.href = 'busquedas.html'"
+            />
+            <a href="">
+              <button type="submit">
+                <img class="img-lupa" src="./imagenes/5122475.png" alt="" /></button
+            ></a>
+  
+            
+          </div>
+        </div>
+        <div class="perfil">
+          <a href="./Perfil.html" id="cliente-tarjeta">
+            <img class="img-perfil" src="./imagenes/foto de perfil.jpg" alt="User">
+            <h2 id="cliente-tarjeta-nombre"></h2>
+          </a>
+        </div>
+      </header>
+    
+      <center><h3 class="titulo">MASCOTAS ATENDIDAS</h3></center>
+
+
+<center><table id="container">
+  <tr>
+    <td>Servicio</td>
+    <td>Nombre de Mascota</td>
+    <td>Nombre de cliente</td>
+    <td>Fecha</td>
+  </tr>
+  <!--<tr class="mascota">
+    <td><img src="img1/imagenes,JPG" alt="img"></td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+  </tr>-->
+
+
+</table></center>
+
+<footer>
+    <div class="grid2">
+        <div>
+            <h5>NOSOTROS</h5>
+            <ul>
+                <li><h6><a href="./Nosotros.html">Nosotros</a></h6></li>
+                <li><h6><a href="./Reportes.html">Reportes</a></h6></li>
+            </ul>
+        </div>
+        <div>
+            <h5>DEPARTAMENTOS</h5>
+            <ul>
+                <li><h6><a href="../09. Página de revisión del contenido cargado/Peces.html">Peces</a></h6></li>
+                <li><h6><a href="../09. Página de revisión del contenido cargado/Roedores.html">Roedores</a></h6></li>
+                <li><h6><a href="../09. Página de revisión del contenido cargado/Aves.html">Aves</a></h6></li>
+                <li><h6><a href="../09. Página de revisión del contenido cargado/Reptiles.html">Reptiles</a></h6></li>
+            </ul>
+        </div>
+        <div>
+            <h5>ENLACES ÚTILES</h5>
+            <ul>
+                <li><h6><a href="">Terminos y Condiciones</a></h6></li>
+                <li><h6><a href="">Politicas y Privacidad</a></h6></li>
+                <li><h6><a href="">Politicas de Servicio</a></h6></li>
+            </ul>
+        </div>
+        <div>
+            <h5>CONTACTENOS</h5>
+            <ul>
+                <li><h6><a href="">Contactenos</a></h6></li>
+                <li><h6>Whatsapp (+507) 6466-6026</h6></li>
+                <li><h6>Correo: OikiakosPanama@hotmail.com</h6></li>
+            </ul>
+        </div>
+        <div>
+            <a href=""></a>
+        </div>
+        <div>
+            <a href="./index.html"><img src="./imgenes/LogoCeleste.JPG" alt=""class="imgfooter"></a>
+        </div>
+    </div>
+</footer>
+<script src="./scripts/reporte.js"></script>
+<script src="./scripts/validarsesion.js"></script>
+</body>
+</html>
